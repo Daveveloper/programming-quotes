@@ -54,16 +54,13 @@ font-family: 'Handlee', ; */
 .quote {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 20px;
   background-color: antiquewhite;
   margin: 10px auto;
   width: 80%;
   border-radius: 15px;
-}
-
-.quote--favorite {
-  margin: 20px;
-  background-color: antiquewhite;
+  min-height: 200px;
 }
 
 .quote__cite {
@@ -85,7 +82,7 @@ font-family: 'Handlee', ; */
   width: 100%;
   margin: 15px auto;
   border-radius: 20px;
-  padding: 5px 0;
+  padding: 5px 10px;
 }
 
 .hero img {
