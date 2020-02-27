@@ -1,38 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Handlee|Indie+Flower|Roboto+Mono|Sacramento&display=swap');
+
+/* font-family: 'Anton', ;
+font-family: 'Roboto Mono', ;
+font-family: 'Indie Flower', ;
+font-family: 'Sacramento', ;
+font-family: 'Handlee', ; */
+
+
 .App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Main {
+  padding: 100px 0;
+}
+.Main__button-generate {
+  background-color: transparent;
+  border-radius: 10px;
+  border:1px solid #666;
+  color: #666;
+  transition: background 1s ease;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 0 10px;
+}
+.Main__button-generate:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.quote {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
+  background-color: antiquewhite;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.quote--favorite {
+  margin: 20px;
+  background-color: antiquewhite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.quote__cite {
+  font-family: 'Handlee', sans-serif;
+}
+
+.quote__symbol {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3.5rem;
+  margin-right: 25px;
+}
+
+.quote__author {
+  font-size: 0.7em;
+  letter-spacing: 2px;
+  font-family: 'Roboto Mono', sans-serif;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  margin: 15px auto;
+  border-radius: 20px;
+  padding: 5px 0;
+}
+
+.hero img {
+  width: 100%;
+}
+
+
+@media (min-width: 401px) {
+  .Main {
+    margin-top: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .quote__author {
+    width: 50%;
+  }
+
+  .hero img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 901px) {
+  .Main {
+    padding: 100px 50px;
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
   }
 }
