@@ -34,10 +34,21 @@ font-family: 'Handlee', ; */
   background-color: #000;
   cursor: pointer;
 }
-
+.header {
+  width: 80%;
+  display: inline-block;
+}
 .title {
   font-family: 'Anton', sans-serif;
   letter-spacing: 2px;
+  margin: 0;
+}
+.designer {
+  font-family: 'Sacramento';
+  position: relative;
+  top: 0;
+  left: 85px;
+  font-size: larger;
 }
 
 .quote {
@@ -81,6 +92,16 @@ font-family: 'Handlee', ; */
   width: 100%;
 }
 
+.footer {
+  padding: 20px;
+  text-align: left;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto Mono';
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
 
 @media (min-width: 401px) {
   .Main {
