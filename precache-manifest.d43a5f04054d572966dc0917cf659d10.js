@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "939544d76a507126f0895c98d6037f19",
+    "revision": "7683fcfcdad9e9065f12bed4deed9e72",
     "url": "/programming-quotes/index.html"
   },
   {
-    "revision": "00e94542645d1a6df529",
-    "url": "/programming-quotes/static/css/main.43562104.chunk.css"
+    "revision": "31037171c38f3cb3a340",
+    "url": "/programming-quotes/static/css/main.a457a596.chunk.css"
   },
   {
-    "revision": "bad0fd921756cb5aeae7",
-    "url": "/programming-quotes/static/js/2.75d60ee0.chunk.js"
+    "revision": "bd5dc9153e756a247419",
+    "url": "/programming-quotes/static/js/2.2d72bc18.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/programming-quotes/static/js/2.75d60ee0.chunk.js.LICENSE.txt"
+    "url": "/programming-quotes/static/js/2.2d72bc18.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "00e94542645d1a6df529",
-    "url": "/programming-quotes/static/js/main.58e88d58.chunk.js"
+    "revision": "31037171c38f3cb3a340",
+    "url": "/programming-quotes/static/js/main.9b42a0c1.chunk.js"
   },
   {
     "revision": "5788fcc2d011aa7840fb",
