@@ -7,15 +7,14 @@ const Footer = () => {
       <section>
         <h3>About this App</h3>
         <p>Developed with React.js</p>
-        <p>API: https://programming-quotes-api.herokuapp.com/</p>
+        <p><span>API:</span> https://programming-quotes-api.herokuapp.com/</p>
         <address>
-          <p>Developer: Dave Araya</p>
-          <p>Email: dave.webdeveloper@gmail.com</p>
+          <p><span>Developer:</span> Dave Araya</p>
+          <p><span>Email:</span> dave.webdeveloper@gmail.com</p>
         </address>
       </section>
       <div className="logos">
-        <FaReact size={48}/>
-
+        <FaReact size={48} color="darkturquoise"/>
       </div>
     </footer>
   )

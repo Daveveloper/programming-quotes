@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Title from '../components/Title'
 import Quote from '../components/Quote'
-import Category from '../components/Category';
 import { getRandomQuote } from '../api/api';
 import Hero from '../components/Hero';
 import {TiRefresh} from 'react-icons/ti';
+import Menu from '../components/Menu';
 
 class Main extends Component {
   constructor(props) {
@@ -26,16 +26,17 @@ class Main extends Component {
   }
 
   render() {
+    console.log(this.props.match);
     const {data} = this.state;
     return (
       <main className="Main">
+        <Menu path={this.props.match.path}/>
         <Hero/>
-        <Title title="Programming Quotes" />
+        <Title title="Programming Quote" />
         {
           data ?
           <>
-            <Quote data={data} addToFavorites={this.addToFavorites}/>
-            <Category category="" />
+            <Quote data={data}/>
           </>
           : "Thinking..."
         }
